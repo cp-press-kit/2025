@@ -48,6 +48,7 @@
     <p class="subtitle"><strong>Cemiyette Pişiyorum</strong> · Punk Rock · Çıkış: <time datetime="2025-10-10">10 Ekim 2025</time></p>
     <p class="subtitle">Grubun yeni stüdyo albümü ENDÜSTRİ yayında!</p>
     <div class="btns quote">
+      <a class="btn" href="#lightbox">Hızlı Bakış</a>
       <a class="btn" href="https://drive.google.com/drive/folders/1kr2BnPpUDo5KBKczyeAvpVwtSUtmphoK?usp=sharing" target="_blank" rel="noopener">Promo Görsel</a>
       <a class="btn" href="https://open.spotify.com/artist/2XmnmKZOUs81vZir5GrkfC" target="_blank" rel="noopener">Spotify</a>
       <a class="btn" href="https://music.apple.com/us/artist/cemiyette-pişiyorum/996914923" target="_blank" rel="noopener">Apple Music</a>
@@ -106,6 +107,71 @@
     </dl>
      <div class="btns quote"><a class="btn quote" href="https://drive.google.com/file/d/18Ix5yNrGPafR7TCLZiyzVpyRJBgoFem3/view?usp=sharing" target="_blank" rel="noopener">Bülteni İndir</a></div>
   </section>
+
+
+  <div id="lightbox" class="lightbox">
+  <a href="#" class="lightbox-close">×</a>
+  <div class="lightbox-content">
+    <img src="lightbox_images/01.jpg" alt="01">
+    <img src="lightbox_images/02.jpg" alt="02">
+    <img src="lightbox_images/03.jpg" alt="03">
+    <img src="lightbox_images/04.jpg" alt="04">
+    <img src="lightbox_images/05.jpg" alt="05">
+    <img src="lightbox_images/06.jpg" alt="06">
+    <img src="lightbox_images/07.jpg" alt="07">
+    <img src="lightbox_images/08.jpg" alt="08">
+    <img src="lightbox_images/09.jpg" alt="09">
+    <img src="lightbox_images/10.jpg" alt="10">
+    <img src="lightbox_images/11.jpg" alt="11">
+    <img src="lightbox_images/12.jpg" alt="12">
+    <img src="lightbox_images/13.jpg" alt="13">
+    <img src="lightbox_images/14.jpg" alt="14">
+    <img src="lightbox_images/15.jpg" alt="15">
+    <img src="lightbox_images/16.jpg" alt="16">
+    <img src="lightbox_images/17.jpg" alt="17">
+    <img src="lightbox_images/18.jpg" alt="18">
+    <img src="lightbox_images/19.jpg" alt="19">
+    <img src="lightbox_images/20.jpg" alt="20">
+  </div>
+</div>
+
+<style>
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.9);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+.lightbox:target {
+  display: flex;
+}
+.lightbox-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  max-width: 90vw;
+  max-height: 80vh;
+  overflow: auto;
+}
+.lightbox-content img {
+  width: 200px;
+  border-radius: 6px;
+}
+.lightbox-close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+</style>
+   
 
   <footer>
     <p>© 2025 Cemiyette Pişiyorum. Tüm hakları saklıdır.</p>

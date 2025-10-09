@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Basın Bülteni – ENDÜSTRİ – Cemiyette Pişiyorum</title>
+  <link rel="icon" type="image/png" href="/favicon.png" />
   <meta name="description" content="Cemiyette Pişiyorum – ENDÜSTRİ basın bülteni" />
   <style>
     :root {
@@ -28,6 +29,18 @@
     .btn { background: var(--card); color: var(--fg); padding: .5rem .9rem; border-radius: 8px; border: 1px solid var(--border); text-decoration: none; font-weight: 600; }
     .btn:hover { background: #334155; }
   </style>
+
+<script>
+  const titles = ["🔥 Cemiyette Pişiyorum", "🏭 ENDÜSTRİ", "📢 Basın Bülteni"];
+  let i = 0;
+  setInterval(() => {
+    document.title = titles[i % titles.length];
+    i++;
+  }, 1500);
+</script>
+
+
+
 </head>
 <body>
   <header>
